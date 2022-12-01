@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        student Bio
-    </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>CSS Stylesheets with Relative Paths</title>
 </head>
 <body>
-    <h1>Sandra Guerra</h1>
-    <img src="" alt="photograph">
-    <p>I am a Web Developer and Business Manager, I Live in the UK</p>
-    <h2>Contact Info</h2>
-    <ul>
-        <li>Email:<a href="."></a></li>
-        <li><a href="https://www.languagecourse.net/school-bloomsbury-international-london.php3">Bloomsbury School London</a></li>
-    </ul>
+    <header>
+        <h1>Student Bio</h1>
+    </header>
+    <div class="container">
+        <section id="main-bio">
+          <h2>Your Name</h2>
+          <img id="bio-image" src="https://t3.ftcdn.net/jpg/02/68/55/60/360_F_268556012_c1WBaKFN5rjRxR2eyV33znK4qnYeKZjm.jpg" alt="Your Name">
+          <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+        </section>
+        <section id="contact-info">
+          <h2>Contact Info</h2>
+          <ul>
+            <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
+            <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+            <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+          </ul>
+        </section>
+    </div>
+    
 </body>
 </html>
